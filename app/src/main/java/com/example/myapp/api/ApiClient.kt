@@ -1,6 +1,5 @@
-package com.example.myapp.Api
+package com.example.myapp.api
 
-import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

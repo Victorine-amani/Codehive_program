@@ -3,9 +3,9 @@ package com.example.myapp
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextClock
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapp.ui.Courses
 
 class CoursesAdapter(var courseList: List<Courses>):RecyclerView.Adapter<CoursesViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoursesViewHolder {
